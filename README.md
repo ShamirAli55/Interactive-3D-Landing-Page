@@ -14,7 +14,7 @@ Interactive-3D-Landing-Page/
 ├── script.js                # Three.js setup and animation logic
 ├── style.css                # Optional styling file (if used)
 └── /assets                  # Fonts, icons, and other assets
-      ├── /models                  # Folder containing GLTF/GLB 3D model
+      ├──models                  # Folder containing GLTF/GLB 3D model
 
 ````
 
