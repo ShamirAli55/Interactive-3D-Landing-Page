@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body
+{
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+/* #container
+{
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  pointer-events: none;
+}
+#canvas
+{
+  height: 100%;
+  width: 100%;
+  pointer-events: all;
+}
+#container img
+{
+  position: absolute;
+  height: 450px;
+  top:60%;
+  left: 30%;
+  pointer-events: none;
+} */
