@@ -56,7 +56,7 @@ new RGBELoader()
 
         const loader = new GLTFLoader();
 
-        loader.load('./DamagedHelmet.gltf', (gltf) => {
+        loader.load('public/assets/models/DamagedHelmet/DamagedHelmet.gltf', (gltf) => {
                 // Add the model to the scene
                 model = gltf.scene;
                 scene.add(model);
