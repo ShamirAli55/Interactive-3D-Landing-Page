@@ -80,15 +80,6 @@ A high-performance, immersive landing page experience built with **Three.js**, *
 > ![Preview Screenshot](assets/screenshot.png)
 > *Immersive hero section with a 3D interactive helmet and glowing logo.*
 
----
-
-## 👤 Author
-
-**Name:** Shamir Ali
-**GitHub:** [ShamirAli55](https://github.com/ShamirAli55)
-**Email:** [shamirali9779@gmail.com](mailto:shamirali9779@gmail.com)
-
----
 
 ## 🧠 Notes
 
