@@ -56,7 +56,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Credits
+## Credits
 
 * Model sources from [Sketchfab](https://sketchfab.com) & Three js examples.
 
