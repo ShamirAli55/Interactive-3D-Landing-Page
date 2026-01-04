@@ -55,7 +55,7 @@ new RGBELoader()
 
         const loader = new GLTFLoader();
 
-        loader.load('assets/models/DamagedHelmet.gltf', (gltf) => {
+        loader.load('./assets/models/DamagedHelmet.gltf', (gltf) => {
                 // Add the model to the scene
                 model = gltf.scene;
                 scene.add(model);
@@ -91,7 +91,7 @@ new RGBELoader()
 
 function animate() {
     window.requestAnimationFrame(animate);
-    composer.render(); // Use composer instead of renderer
+    composer.render(); 
 }
 
 animate()

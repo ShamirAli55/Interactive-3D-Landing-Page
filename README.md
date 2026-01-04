@@ -1,64 +1,101 @@
-# Interactive 3D Landing Page 🌐✨
+#Landing Page 🚀
 
-An immersive 3D landing page built with **Three.js**, featuring real-time 3D models using **GLTFLoader**, interactive camera movement via **OrbitControls**, and stunning **RGB post-processing** effects. Perfect for portfolios, product intros, or futuristic web experiences.
+A high-performance, immersive landing page experience built with **Three.js**, **GSAP**, **TailwindCSS**, and advanced WebGL rendering techniques. This project creates a futuristic branding experience for "PREDATOR" using real-time 3D graphics, shaders, HDR environments, and animation sequences.
+
+![screenshot](assets/screenshot.png)
 
 ---
 
-## 📁 Folder Structure
+## 🌌 Features
+
+- 🕹️ **Three.js** for real-time 3D rendering
+- 🎨 **Custom GLSL Shaders** for unique visual effects
+- 🌍 **HDRI Environment Mapping** for realistic lighting
+- 🌀 **OrbitControls** for intuitive camera control
+- 🧠 **EffectComposer/Postprocessing** for cinematic depth (bloom, DOF, etc.)
+- 🔧 **GSAP Animations** for smooth page transitions and object movements
+- ⚡ **TailwindCSS** for fast, utility-first UI styling
+- 💡 **Responsive and Optimized** for desktop and high-performance setups
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech            | Purpose                                   |
+|-----------------|-------------------------------------------|
+| `Three.js`      | 3D scene, models, and rendering            |
+| `GSAP`          | Smooth animations and scroll transitions   |
+| `TailwindCSS`   | Modern responsive layout and styling       |
+| `OrbitControls` | Camera interaction                        |
+| `GLSL`          | Custom shaders for visuals                |
+| `EffectComposer`| Post-processing pipeline (bloom, DOF, etc.)|
+| `HDRI`          | Environment lighting and reflections      |
+
+---
+
+## 📂 Project Structure
 
 ```
 
-Interactive-3D-Landing-Page/
-│
-├── index.html               # Main HTML file
-├── script.js                # Three.js setup and animation logic
-├── style.css                # Optional styling file (if used)
-└── /assets                  # Fonts, icons, and other assets
-      ├──models                  # Folder containing GLTF/GLB 3D model
+📁 predator-landing-page/
+├── index.html
+├── src/style.css 
+├── main.js                 
+├── assets/
+│   ├── models/textures              # 3D assets (e.g., helmet.glb           
+│   ├── logo.png
+│   └── screenshot.png
 
 ````
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Getting Started
 
-- [Three.js](https://threejs.org/) – WebGL framework for 3D rendering
-- [GLTFLoader](https://threejs.org/docs/#examples/en/loaders/GLTFLoader) – For loading `.glb` or `.gltf` models
-- [OrbitControls](https://threejs.org/docs/#examples/en/controls/OrbitControls) – Allows mouse/touch camera movement
-- [Postprocessing](https://threejs.org/examples/?q=rgb#webgl_postprocessing_rgb_halftone) – RGB shift, glitch, or other shader effects
-
----
-
-## 📦 Setup Instructions
-
-1. Clone this repository:
+1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/Interactive-3D-Landing-Page.git
+   git clone https://github.com/ShamirAli55/predator-landing-page.git
+   cd predator-landing-page
 ````
 
-2. Open `index.html` in a browser (use Live Server or host locally).
-3. Add your `.glb`/`.gltf` models to the `/models` folder.
-4. Customize `script.js` to modify camera, lights, model behavior, or shaders.
+2. **Install dependencies (if applicable)**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the local server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser**
+   Navigate to `http://localhost:3000` (or your dev server)
 
 ---
 
-## 🎨 Tips
+## 📸 Preview
 
-* Keep your 3D models optimized (use Draco compression or limit poly count).
-* Use OrbitControls for intuitive model inspection.
-* Experiment with shaders like **RGBShift**, **Bloom**, or **GlitchPass** for visual punch.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+> ![Preview Screenshot](assets/screenshot.png)
+> *Immersive hero section with a 3D interactive helmet and glowing logo.*
 
 ---
 
-## Credits
+## 👤 Author
 
-* Model sources from [Sketchfab](https://sketchfab.com) & Three js examples.
+**Name:** Shamir Ali
+**GitHub:** [ShamirAli55](https://github.com/ShamirAli55)
+**Email:** [shamirali9779@gmail.com](mailto:shamirali9779@gmail.com)
+
+---
+
+## 🧠 Notes
+
+* Works best on modern browsers with WebGL2 support.
+* Designed for high-res displays; performance may vary on low-end GPUs.
+* Assets like HDRIs or models must be optimized for deployment (GLTF compression recommended).
+
+---
 
 ```
-
