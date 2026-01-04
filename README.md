@@ -37,7 +37,7 @@ A high-performance, immersive landing page experience built with **Three.js**, *
 
 ```
 
-📁 predator-landing-page/
+📁/
 ├── index.html
 ├── src/style.css 
 ├── main.js                 
@@ -98,4 +98,3 @@ A high-performance, immersive landing page experience built with **Three.js**, *
 
 ---
 
-```
