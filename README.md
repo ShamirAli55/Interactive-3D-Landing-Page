@@ -1,4 +1,4 @@
-#Landing Page 🚀
+## 🚀 Landing Page
 
 A high-performance, immersive landing page experience built with **Three.js**, **GSAP**, **TailwindCSS**, and advanced WebGL rendering techniques. This project creates a futuristic branding experience for "PREDATOR" using real-time 3D graphics, shaders, HDR environments, and animation sequences.
 
