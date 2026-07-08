@@ -75,10 +75,6 @@ A high-performance, immersive landing page experience built with **Three.js**, *
 
 ---
 
-## 📸 Preview
-
-> ![Preview Screenshot](assets/screenshot.png)
-> *Immersive hero section with a 3D interactive helmet and glowing logo.*
 
 
 ## 🧠 Notes
